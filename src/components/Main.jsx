@@ -6,7 +6,7 @@ const Main = ({ activeNote, onUpdateNote }) => {
     onUpdateNote({
       id: activeNote.id,
       [key]: value,
-      moddDate: Date.now(),
+      modDate: Date.now(),
     });
   };
 
